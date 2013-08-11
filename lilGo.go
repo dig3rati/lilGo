@@ -1,9 +1,9 @@
-package goLil
+package lilGo
 
-func Shorten(longURL string) (shortURL string) {
-
+func Shorten(longURL *string) (shortCode string) {
+	return "Short"
 }
 
-func Expand(shortURL string) (longURL string) {
-
+func Expand(shortCode *string) (longURL string) {
+	return "Long"
 }
